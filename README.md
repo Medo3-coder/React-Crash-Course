@@ -1,4 +1,5 @@
 # React-Crash-Course
+
 ## Introduction: This topic provides an overview of React, explaining its purpose and benefits. It covers the basics of React's component-based architecture and its role in building user interfaces.
 
 ## React Basics: This topic covers the fundamental concepts of React, including components, rendering, and the virtual DOM. It introduces the React syntax and how to create functional and class components.
