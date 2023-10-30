@@ -3,13 +3,15 @@ import './App.css';
 import React from 'react'
 
 function App() {
-  const error = true;
-  return <h1>{error ? 'Error' : 'Success'}</h1>
+  const props = {
+    id:'input',
+    type: 'text',
+    maxLength:'3'
+  };
   return (
       <>
-     {/* return error ? <h1>Error</h1> : <h1>success</h1> */}
-    {/* {!error ? <h1>success</h1> : <h1>Error</h1> } */}
-    {/* {error && <h1>Success</h1>} */}
+     <label htmlFor='input'>Input:</label>
+     <input {...props}></input>
     </>
   );
 }
