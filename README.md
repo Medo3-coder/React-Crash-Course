@@ -9,6 +9,7 @@ from small and isolated pieces of code called “components”
 - Undirectional Data Flow: Data Flows In 1 Direction
 
 
+## Description Of Course
 1.  **Introduction**: This topic provides an overview of React, explaining its purpose and benefits. It covers the basics of React's component-based architecture and its role in building user interfaces.
 
 2.  **React Basics**: This topic covers the fundamental concepts of React, including components, rendering, and the virtual DOM. It introduces the React syntax and how to create functional and class components.
