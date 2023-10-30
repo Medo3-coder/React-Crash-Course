@@ -3,17 +3,12 @@ import './App.css';
 import React from 'react'
 
 function App() {
-  const props = {
-    id:'input',
-    type: 'text',
-    maxLength:'3'
-  };
-  return (
-      <>
-     <label htmlFor='input'>Input:</label>
-     <input {...props}></input>
-    </>
-  );
+
+  return <p style={{
+    color: 'red',
+    textAlign:'center',
+    fontSize:48
+  }}> Hello World</p>
 }
 
 
