@@ -4,13 +4,19 @@ import React from 'react'
 
 function App() {
 
-  return <p style={{
-    color: 'red',
-    textAlign:'center',
-    fontSize:48
-  }}> Hello World</p>
+  return (
+   <>
+   <Hello name="conner"/>
+   <Hello name="celement"/>
+
+   </>
+  );
 }
 
+function Hello(props)
+{
+  return <h1>Hello {props.name}</h1>
+}
 
 
 export default App;
