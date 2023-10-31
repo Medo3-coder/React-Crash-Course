@@ -3,27 +3,69 @@ import './App.css';
 import React from 'react'
 
 
-//-----------comment props
+// -----------Event-Driven Programming--------------------
+
+
+
+
+
+
 
 function App() {
 
   return (
-     <Comment username="conner" time={(new Date()).toString()}>
-      <h1>Hello World</h1>
-     </Comment>
+    <MyButton onClick={handleClick}>Click Me</MyButton>
   );
+
+  function handleClick (event) {
+    console.log(event.nativeEvent)
+  };
+
+  function MyButton(props)
+  {
+    return (
+      <button
+      onClick={props.onClick}   //{...props}  we can use spread operator
+      // {...props} 
+      style={{
+        color:'red'
+      }}>
+        {props.children}
+      </button>
+    );
+  }
+
 }
 
 
-function Comment({username , time , children})
-{
-  return (
-    <section>
-      <p>{username} commented At {time}</p>
-      {children}
-    </section>
-  );
-}
+
+
+
+
+
+
+
+//----------- props
+
+// function App() {
+
+//   return (
+//      <Comment username="conner" time={(new Date()).toString()}>
+//       <h1>Hello World</h1>
+//      </Comment>
+//   );
+// }
+
+
+// function Comment({username , time , children})
+// {
+//   return (
+//     <section>
+//       <p>{username} commented At {time}</p>
+//       {children}
+//     </section>
+//   );
+// }
 
 
 
