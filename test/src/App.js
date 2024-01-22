@@ -47,35 +47,5 @@ function Counter({ count, onClick }) {
 
 
 
-// -----------Event-Driven Programming--------------------
-
-
-// function App() {
-
-//   return (
-//     <MyButton onClick={handleClick}>Click Me</MyButton>
-//   );
-
-//   function handleClick (event) {
-//     console.log(event.nativeEvent)
-//   };
-
-//   function MyButton(props)
-//   {
-//     return (
-//       <button
-//       onClick={props.onClick}   //{...props}  we can use spread operator
-//       // {...props} 
-//       style={{
-//         color:'red'
-//       }}>
-//         {props.children}
-//       </button>
-//     );
-//   }
-
-// }
-
-
 
 export default App;

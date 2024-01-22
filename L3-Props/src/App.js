@@ -29,9 +29,9 @@ class App extends Component {
 
 // 2 - other way by destructing
 
-function Hello({name}){
-  return <h1>Hello {name}</h1>
-}
+// function Hello({name}){
+//   return <h1>Hello {name}</h1>
+// }
 
 //3 - we can make default props
 
